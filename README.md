@@ -118,8 +118,6 @@ The output should include the following lines:
 
 <h2>Conclusion</h2>
 
-Great work!
-
 I now have practical experience with the APT package manager. I learned to
 
 - install applications,
