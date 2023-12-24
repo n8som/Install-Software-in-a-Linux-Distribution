@@ -30,7 +30,7 @@ I’ll use the Bash shell by typing commands after the prompt. The prompt is rep
   
 When installed, apt displays basic usage information when you run it. This includes the version information and a description of the tool:
 
-[image]
+![image](https://github.com/n8som/Install-Software-in-a-Linux-Distribution/assets/110139109/d2933849-9e2b-4109-a924-3d66a6a5f3b6)
 
 APT is already installed by default in the Linux Bash shell in this lab because this is a Debian-based system. APT is also the recommended package manager for Debian.
 
@@ -54,6 +54,8 @@ Type ```suricata``` after the command-line prompt and press ENTER.
 
 When Suricata is installed, version and usage information is listed:
 
+![image](https://github.com/n8som/Install-Software-in-a-Linux-Distribution/assets/110139109/7062de79-d039-424b-a387-904a9274dd88)
+
 3. Use the APT package manager to uninstall Suricata.
 
 Type ```sudo apt remove suricata``` after the command-line prompt and press ENTER. Press ENTER (Yes) when prompted to continue.
@@ -66,7 +68,7 @@ Type ```suricata``` after the command-line prompt and press ENTER.
 
 Since I uninstalled Suricata, it outputs an error message:
 
-[image]
+![image](https://github.com/n8som/Install-Software-in-a-Linux-Distribution/assets/110139109/4ec842ad-261d-4e6e-adf3-4e57ce035c22)
 
 This message indicates that Suricata can't be found anymore.
 
@@ -92,7 +94,7 @@ This produces a long list of applications because Linux has a lot of software in
 
 The Suricata application is not listed because I installed and then uninstalled that application:
 
-[image]
+![image](https://github.com/n8som/Install-Software-in-a-Linux-Distribution/assets/110139109/9ca8d7bf-2ca7-4296-8227-83bd464371c8)
 
 <h2>Task 5. Reinstall the Suricata Application</h2>
 
@@ -112,7 +114,7 @@ Type ```apt list --installed``` after the command-line prompt and press ENTER.
    
 The output should include the following lines:
 
-[image]
+![image](https://github.com/n8som/Install-Software-in-a-Linux-Distribution/assets/110139109/a5f14bf2-0e19-4feb-851e-ad6a013aee9b)
 
 <h2>Conclusion</h2>
 
